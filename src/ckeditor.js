@@ -57,7 +57,7 @@ class InsertImage extends Plugin {
 
 			// Callback executed once the image is clicked.
 			view.on( 'execute', () => {
-				const imageURL = prompt( 'Image URL' );
+				// const imageURL = prompt( 'Image URL' );
 			} );
 
 			return view;
